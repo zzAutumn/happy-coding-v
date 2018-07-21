@@ -22,7 +22,7 @@
     </TimelineItem>
     <TimelineItem>
       <Icon type="social-snapchat-outline" slot="dot"></Icon>
-      <p class="time">2018年</p>
+      <p class="time"><router-link to="/year-2018">2018年</router-link></p>
       <p class="content">我来上海工作，我们一起去了迪士尼</p>
     </TimelineItem>
     <TimelineItem>
