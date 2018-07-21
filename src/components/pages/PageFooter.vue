@@ -23,11 +23,15 @@ export default {
 </script>
 
 <style scoped>
+.ivu-layout{
+  height: 65px;
+}
 .ivu-layout-footer{
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
   padding: 10px;
+  margin-top: 20px;
 }
 .layout-footer-center{
   text-align: center;

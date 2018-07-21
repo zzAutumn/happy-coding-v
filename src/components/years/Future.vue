@@ -7,7 +7,7 @@
           <p> </p>
       </Card>
     </div>
-    <page-footer></page-footer>
+    <page-footer class="footer-layout"></page-footer>
   </div>
 </template>
 
@@ -23,6 +23,9 @@ export default {
 </script>
 
 <style scoped>
+.footer-layout{
+  position: fixed;
+}
 .card-container{
   margin: 10px auto;
 }

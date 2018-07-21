@@ -29,7 +29,7 @@
     <h3 class="title">
       看了可爱的panda,游宽窄巷子,冒着暴雨爬峨眉~
     </h3>
-    <page-footer></page-footer>
+    <page-footer class="footer-layout"></page-footer>
   </div>
 </template>
 
@@ -45,6 +45,9 @@ export default {
 </script>
 
 <style scoped>
+.footer-layout{
+  position: fixed;
+}
 .title{
   margin: 10px;
 }

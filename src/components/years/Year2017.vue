@@ -35,7 +35,7 @@
           </p>
       </Panel>
     </Collapse>
-    <page-footer></page-footer>
+    <page-footer class="footer-layout"></page-footer>
   </div>
 </template>
 
@@ -56,6 +56,9 @@ export default {
 </script>
 
 <style scoped>
+.footer-layout{
+  position: fixed;
+}
 .ivu-collapse{
   margin: 20px auto;
 }
