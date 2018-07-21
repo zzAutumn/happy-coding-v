@@ -7,12 +7,12 @@
     </TimelineItem>
     <TimelineItem>
       <Icon type="android-favorite" slot="dot"></Icon>
-      <p class="time">2012年</p>
+      <p class="time"><router-link to="/year-2012">2012年</router-link></p>
       <p class="content">高三：我们经历了高考，然后去了各自的大学</p>
     </TimelineItem>
     <TimelineItem>
       <Icon type="social-octocat" slot="dot"></Icon>
-      <p class="time">2016年</p>
+      <p class="time"><router-link to="/year-2016">2016年</router-link></p>
       <p class="content">大学毕业的时候我们一起去了成都</p>
     </TimelineItem>
     <TimelineItem>

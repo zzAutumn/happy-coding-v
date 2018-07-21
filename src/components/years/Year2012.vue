@@ -1,14 +1,14 @@
 <template>
-  <div class="year-2010">
+  <div class="year-2012">
     <page-header></page-header>
     <Card>
       <p slot="title">
-        O(∩_∩)O哈哈~熟悉的背影~~
+        大学的生活
       </p>
       <div>
-        <img src="../../assets/2010.jpeg" >
-        <img src="../../assets/2010-1.jpeg" >
-        <p>高中的同桌生活，时而想起依旧觉得很开心。</p>
+        <img src="../../assets/2012.jpeg" >
+        <img src="../../assets/2012-1.jpeg" >
+        <p>我在哈尔滨，你在重庆，每年最高兴最期待的是寒暑假可以和你还有丹哥老大一起约~~</p>
       </div>
     </Card>
   </div>
