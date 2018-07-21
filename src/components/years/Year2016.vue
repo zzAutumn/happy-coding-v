@@ -1,8 +1,8 @@
 <template>
-  <div class="year-2012">
+  <div class="year-2016">
     <page-header></page-header>
     <h2 class="title">
-        毕业的成都行~~~看了可爱的panda,游宽窄巷子,冒着暴雨爬峨眉~
+        毕业的成都行~~~
     </h2>
     <Carousel autoplay>
         <CarouselItem>
@@ -26,6 +26,9 @@
           </div>
         </CarouselItem>
     </Carousel>
+    <h3 class="title">
+      看了可爱的panda,游宽窄巷子,冒着暴雨爬峨眉~
+    </h3>
   </div>
 </template>
 

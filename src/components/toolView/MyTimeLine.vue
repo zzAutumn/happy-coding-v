@@ -17,7 +17,7 @@
     </TimelineItem>
     <TimelineItem>
       <Icon type="android-boat" slot="dot"></Icon>
-      <p class="time">2017年</p>
+      <p class="time"><router-link to="/year-2017">2017年</router-link></p>
       <p class="content">你来北京，我们一起去了故宫、颐和园......</p>
     </TimelineItem>
     <TimelineItem>
