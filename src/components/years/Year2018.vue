@@ -1,5 +1,5 @@
 <template>
-  <div class="year-2012">
+  <div class="year-2018">
     <page-header></page-header>
     <Row style="background: #e3e8ee;padding:16px;">
       <Tabs type="card">
@@ -21,14 +21,17 @@
           </TabPane>
       </Tabs>
     </Row>
+    <page-footer></page-footer>
   </div>
 </template>
 
 <script>
 import PageHeader from '@/components/pages/PageHeader'
+import PageFooter from '@/components/pages/PageFooter'
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    PageFooter
   }
 }
 </script>

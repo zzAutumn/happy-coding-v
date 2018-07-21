@@ -6,6 +6,7 @@ import Year2012 from '@/components/years/Year2012'
 import Year2016 from '@/components/years/Year2016'
 import Year2017 from '@/components/years/Year2017'
 import Year2018 from '@/components/years/Year2018'
+import Future from '@/components/years/Future'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/year-2018',
       name: 'Year2018',
       component: Year2018
+    },
+    {
+      path: '/year-future',
+      name: 'Future',
+      component: Future
     }
   ]
 })

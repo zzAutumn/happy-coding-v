@@ -11,14 +11,17 @@
         <p>高中的同桌生活，时而想起依旧觉得很开心。</p>
       </div>
     </Card>
+    <page-footer></page-footer>
   </div>
 </template>
 
 <script>
 import PageHeader from '@/components/pages/PageHeader'
+import PageFooter from '@/components/pages/PageFooter'
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    PageFooter
   }
 }
 </script>

@@ -27,7 +27,7 @@
     </TimelineItem>
     <TimelineItem>
       <Icon type="android-send" slot="dot"></Icon>
-      <p class="time">未来</p>
+      <p class="time"><router-link to="/year-future">未来</router-link></p>
       <p class="content">以后我们还要一起去更多的地方看看......</p>
     </TimelineItem>
   </Timeline>

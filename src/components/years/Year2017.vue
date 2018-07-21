@@ -35,14 +35,17 @@
           </p>
       </Panel>
     </Collapse>
+    <page-footer></page-footer>
   </div>
 </template>
 
 <script>
 import PageHeader from '@/components/pages/PageHeader'
+import PageFooter from '@/components/pages/PageFooter'
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    PageFooter
   },
   data () {
     return {

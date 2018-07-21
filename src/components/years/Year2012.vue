@@ -11,14 +11,17 @@
         <p>我在哈尔滨，你在重庆，每年最高兴最期待的是寒暑假可以和你还有丹哥老大一起约~~</p>
       </div>
     </Card>
+    <page-footer></page-footer>
   </div>
 </template>
 
 <script>
 import PageHeader from '@/components/pages/PageHeader'
+import PageFooter from '@/components/pages/PageFooter'
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    PageFooter
   }
 }
 </script>

@@ -29,14 +29,17 @@
     <h3 class="title">
       看了可爱的panda,游宽窄巷子,冒着暴雨爬峨眉~
     </h3>
+    <page-footer></page-footer>
   </div>
 </template>
 
 <script>
 import PageHeader from '@/components/pages/PageHeader'
+import PageFooter from '@/components/pages/PageFooter'
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    PageFooter
   }
 }
 </script>
