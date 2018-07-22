@@ -11,9 +11,9 @@
         <p>
           CXL & YJJ @2010-2018
         </p>
-      </div>  
-    </Footer>  
-  </Layout>  
+      </div>
+    </Footer>
+  </Layout>
 </template>
 
 <script>

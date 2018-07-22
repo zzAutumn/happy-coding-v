@@ -8,13 +8,13 @@
             <p>终于去了迪士尼~~~</p>
           </TabPane>
           <TabPane label="A" icon="earth">
-            <img src="../../assets/2018-2.jpeg"/>
+            <img src="../../assets/2018-2.jpg"/>
           </TabPane>
           <TabPane label="H" icon="planet">
-            <img src="../../assets/2018-1.jpeg" >
+            <img src="../../assets/2018-1.jpg" >
           </TabPane>
           <TabPane label="H" icon="cube">
-            <img src="../../assets/2018-3.jpeg" >
+            <img src="../../assets/2018-3.jpg" >
           </TabPane>
           <TabPane label="Y" icon="bowtie">
             <img  class="img-height" src="../../assets/2018-4.jpeg" >

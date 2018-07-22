@@ -1,11 +1,11 @@
 <template>
   <div class="year-2017">
     <page-header></page-header>
-    <Collapse accordion v-model="extend">
+    <Collapse accordion v-model="extend" @on-change="click">
       <Panel name="1">
           One
           <p slot="content">
-            <img class="img-rotate" src="../../assets/2017.jpeg" >
+            <img class="img-rotate" src="../../assets/2017.jpg" >
             <br>
             <span>(～￣▽￣)～</span>
           </p>
@@ -13,7 +13,7 @@
       <Panel name="2">
           Two
           <p slot="content">
-            <img class="img-rotate" src="../../assets/2017-1.jpeg" >
+            <img class="img-rotate" src="../../assets/2017-1.jpg" >
             <br>
             <span>O(∩_∩)O哈哈~</span>
           </p>
@@ -21,7 +21,7 @@
       <Panel name="3">
           Three
           <p slot="content">
-            <img src="../../assets/2017-2.jpeg" >
+            <img src="../../assets/2017-2.jpg" >
             <br>
             <span>(*^▽^*)</span>
           </p>
@@ -29,7 +29,7 @@
       <Panel name="4">
           Four
           <p slot="content">
-            <img class="img-rotate" src="../../assets/2017-3.jpeg" >
+            <img class="img-rotate" src="../../assets/2017-3.jpg" >
             <br>
             <span>(～￣▽￣)～我跟毛主席照张相</span>
           </p>
@@ -49,7 +49,9 @@ export default {
   },
   data () {
     return {
-      extend: 1
+      extend: [1],
+      spinShow: true,
+      test: false
     }
   }
 }
@@ -66,7 +68,7 @@ img{
   width: 100%;
   height: 341px;
 }
-.img-rotate{
-  transform: rotate(90deg);
-}
+/* .img-rotate{
+  transform: rotate(180deg);
+} */
 </style>
