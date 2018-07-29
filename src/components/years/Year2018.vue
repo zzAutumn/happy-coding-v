@@ -5,7 +5,12 @@
       <Tabs type="card">
           <TabPane label="H" icon="happy-outline">
             <img src="../../assets/2018.jpeg" >
-            <p>终于去了迪士尼~~~</p>
+            <div>
+              <div class="weather-img">
+                <img src="../../assets/weather2.svg">
+              </div>
+              <h5 class="title">终于去了迪士尼~~~</h5>
+            </div>
           </TabPane>
           <TabPane label="A" icon="earth">
             <img src="../../assets/2018-2.jpg"/>
@@ -47,6 +52,17 @@ img{
   width: 100%;
 }
 .img-height{
-  height: 258px;
+  height: 298px;
+}
+.weather-img{
+  width: 40px;
+  height: 40px;
+}
+.weather-img > img{
+  width: 100%;
+  height: 100%;
+}
+h5[class='title']{
+  text-indent: 2em;
 }
 </style>

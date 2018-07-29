@@ -26,9 +26,14 @@
           </div>
         </CarouselItem>
     </Carousel>
-    <h3 class="title">
-      看了可爱的panda,游宽窄巷子,冒着暴雨爬峨眉~
-    </h3>
+    <div>
+      <div class="weather-img">
+        <img src="../../assets/weather.svg">
+      </div>
+      <h5 class="title">
+        看了可爱的panda,游宽窄巷子,冒着暴雨爬峨眉~
+      </h5>
+    </div>
     <page-footer class="footer-layout"></page-footer>
   </div>
 </template>
@@ -55,8 +60,16 @@ export default {
   width: 100%;
   height: 280px;
 }
+.weather-img{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
 img{
   width: 100%;
   height: 100%;
+}
+h5[class='title']{
+  text-indent: 2em;
 }
 </style>

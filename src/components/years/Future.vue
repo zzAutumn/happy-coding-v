@@ -4,7 +4,11 @@
     <div  class="card-container" style="background:#eee;padding: 20px">
       <Card :bordered="false">
           <p slot="title">谈谈未来</p>
-          <p> </p>
+          <div class="weather-img">
+            <img src="../../assets/weather3.svg">
+          </div>
+          <h5 class="title">en~~~</h5>
+          <h5></h5>
       </Card>
     </div>
     <page-footer class="footer-layout"></page-footer>
@@ -28,5 +32,16 @@ export default {
 }
 .card-container{
   margin: 10px auto;
+}
+.weather-img{
+  width: 40px;
+  height: 40px;
+}
+.weather-img > img{
+  width: 100%;
+  height: 100%;
+}
+h5[class='title']{
+  text-indent: 2em;
 }
 </style>

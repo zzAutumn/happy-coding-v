@@ -1,7 +1,7 @@
 <template>
   <div class="year-2017">
     <page-header></page-header>
-    <Collapse accordion v-model="extend" @on-change="click">
+    <Collapse accordion v-model="extend">
       <Panel name="1">
           One
           <p slot="content">
@@ -33,6 +33,17 @@
             <br>
             <span>(～￣▽￣)～我跟毛主席照张相</span>
           </p>
+      </Panel>
+      <Panel name="5">
+        Five
+        <div slot="content">
+          <div class="weather-img">
+            <img src="../../assets/weather1.svg">
+          </div>
+          <h5 class="title">
+            en~~,
+          </h5>
+        </div>
       </Panel>
     </Collapse>
     <page-footer class="footer-layout"></page-footer>
@@ -71,4 +82,15 @@ img{
 /* .img-rotate{
   transform: rotate(180deg);
 } */
+.weather-img{
+  width: 40px;
+  height: 40px;
+}
+.weather-img > img{
+  width: 100%;
+  height: 100%;
+}
+h5[class='title']{
+  text-indent: 2em;
+}
 </style>
