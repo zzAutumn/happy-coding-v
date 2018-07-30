@@ -5,21 +5,31 @@
       <Tabs type="card">
           <TabPane label="H" icon="happy-outline">
             <img src="../../assets/2018.jpeg" >
-            <div>
-              <div class="weather-img">
-                <img src="../../assets/weather2.svg">
-              </div>
-              <h5 class="title">终于去了迪士尼~~~</h5>
+            <div class="weather-img">
+              <img src="../../assets/weather2.svg">
             </div>
+            <h5 class="title">终于去了迪士尼~~~</h5>
           </TabPane>
           <TabPane label="A" icon="earth">
             <img src="../../assets/2018-2.jpg"/>
+            <div class="weather-img">
+              <img src="../../assets/weather2.svg">
+            </div>
+            <h5 class="title">以后还要一起去更多的地方~~~</h5>
           </TabPane>
           <TabPane label="H" icon="planet">
             <img src="../../assets/2018-1.jpg" >
+            <div class="weather-img">
+              <img src="../../assets/weather2.svg">
+            </div>
+            <h5 class="title">然后给你拍很多照片~~~</h5>
           </TabPane>
           <TabPane label="H" icon="cube">
             <img src="../../assets/2018-3.jpg" >
+            <div class="weather-img">
+              <img src="../../assets/weather2.svg">
+            </div>
+            <h5 class="title">等老的时候再看，哈哈哈~~~</h5>
           </TabPane>
           <TabPane label="Y" icon="bowtie">
             <img  class="img-height" src="../../assets/2018-4.jpeg" >

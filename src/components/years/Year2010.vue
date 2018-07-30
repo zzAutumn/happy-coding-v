@@ -8,7 +8,10 @@
       <div>
         <img src="../../assets/2010.jpeg" >
         <img src="../../assets/2010-1.jpeg" >
-        <p>高中的同桌生活，时而想起依旧觉得很开心。</p>
+        <div class="weather-img">
+          <img src="../../assets/weather5.svg">
+        </div>
+        <h5 class="title">高中的同桌生活，时而想起依旧觉得很开心。</h5>
       </div>
     </Card>
     <page-footer></page-footer>
@@ -33,5 +36,16 @@ export default {
 }
 img{
   width: 100%;
+}
+.weather-img{
+  width: 40px;
+  height: 40px;
+}
+.weather-img > img{
+  width: 100%;
+  height: 100%;
+}
+h5[class='title']{
+  text-indent: 2em;
 }
 </style>
